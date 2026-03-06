@@ -4,7 +4,7 @@
 
 
 ## Description
-The purpose of this repository is to store source code for studying JavaScript. Here you will find a variety of examples and practical exercises that can help you learn and understand the JavaScript language.
+The purpose of this repository is to store source code dedicated to the study of **algorithms and programming logic in JavaScript**. Here you will find a variety of practical examples, exercises, and implementations of fundamental algorithms that can help you learn, develop your logical reasoning, and deeply understand the JavaScript language.
 
 ## License
 This project is under the GNU GPL license. See the [LICENSE](https://www.gnu.org/licenses/gpl-3.0.pt-br.html) file for more details.
