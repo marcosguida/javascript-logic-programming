@@ -2,7 +2,7 @@
 
 class Animal {
   falar() {
-    return '...';
+    return ' ';
   }
 }
 class Cachorro extends Animal {
