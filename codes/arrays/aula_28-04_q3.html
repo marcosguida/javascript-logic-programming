@@ -1,13 +1,29 @@
-<script> 
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aula 28/04 — Exercício Q3</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#222}
+    pre{background:#f7f7f7;border:1px solid #e6e6e6;padding:12px}
+  </style>
+</head>
+<body>
+  <h1>Vetor: múltiplos de 10</h1>
+  <p><strong>Enunciado:</strong> Crie um array contendo os múltiplos de 10 de 10 até 100 (10, 20, 30, ..., 100). Exiba o array na página e no console do navegador.</p>
 
-    let vet=[];
-    let y;
-    
-    for(y = 10; y <= 100; y+=10){
-        
-        vet.push(y)
+  <h2>Resultado</h2>
+  <pre id="output">Carregando...</pre>
+
+  <script>
+    const vet = [];
+    for (let y = 10; y <= 100; y += 10) {
+      vet.push(y);
     }
-    console.log(vet)
-        
-    
-    </script>
+
+    document.getElementById('output').textContent = JSON.stringify(vet, null, 2);
+    console.log('aula_28-04_q3 ->', vet);
+  </script>
+</body>
+</html>

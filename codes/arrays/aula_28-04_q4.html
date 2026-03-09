@@ -1,21 +1,33 @@
-<script> 
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aula 28/04 — Exercício Q4</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#222}
+    pre{background:#f7f7f7;border:1px solid #e6e6e6;padding:12px}
+  </style>
+</head>
+<body>
+  <h1>Vetor com padrão alternado</h1>
+  <p><strong>Enunciado:</strong> O script gera um vetor com 10 elementos. Nas iterações de índice par insere o valor (índice+1)×10 (10, 30, 50, ...). Nas iterações de índice ímpar insere o valor índice+11 (12, 14, 16, ...). Exiba o vetor na página e no console.</p>
 
-let vet=[];
-let y;
-    
-    // comeca com o 10 na posição 0, vai incrementando de 10 em 10 até chegar no valor 100
-    // o push vai adicionando os VALORES às posições até chegar no valor que da segunda condição do laço.
-    
-for(y = 0; y < 10; y++){
-    
-    if (y%2==0){
-        vet.push((y+1)*10)
+  <h2>Resultado</h2>
+  <pre id="output">Carregando...</pre>
+
+  <script>
+    const vet = [];
+    for (let y = 0; y < 10; y++) {
+      if (y % 2 === 0) {
+        vet.push((y + 1) * 10);
+      } else {
+        vet.push(y + 11);
+      }
     }
-    else{
-        vet.push(y+11)
-    }
-}
-console.log(vet)
-        
-    
-</script>
+
+    document.getElementById('output').textContent = JSON.stringify(vet, null, 2);
+    console.log('aula_28-04_q4 ->', vet);
+  </script>
+</body>
+</html>

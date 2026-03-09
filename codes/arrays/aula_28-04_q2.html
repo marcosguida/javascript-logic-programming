@@ -1,19 +1,31 @@
-<script> 
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Aula 28/04 — Exercício Q2</title>
+    <style>
+        body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#222}
+        h1{font-size:1.4rem}
+        pre{background:#f7f7f7;border:1px solid #e6e6e6;padding:12px}
+    </style>
+</head>
+<body>
+    <h1>Vetor com valores decrescentes (exemplo original adaptado)</h1>
+    <p><strong>Enunciado:</strong> Gere um vetor contendo 10 valores decrescentes a partir de 100 (100, 99, 98, ...), exiba o resultado na página e registre-o no console.</p>
 
-let vet=[];
-let x;
-let y;
+    <h2>Resultado</h2>
+    <pre id="output">Carregando...</pre>
 
-for(y = 100; y > 0; y++){
-    
-    vet.push(200-y*2)
-}
-console.log(vet)
-    
-    
-    
-    
-    
-    
-    
-</script>
+    <script>
+        // Cria vetor com valores de 100 até 91 (10 elementos decrescentes a partir de 100)
+        const vet = [];
+        for (let y = 100; y > 90; y--) {
+            vet.push(y);
+        }
+
+        document.getElementById('output').textContent = JSON.stringify(vet, null, 2);
+        console.log('aula_28-04_q2 ->', vet);
+    </script>
+</body>
+</html>

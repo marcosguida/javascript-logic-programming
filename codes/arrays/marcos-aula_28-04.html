@@ -1,21 +1,29 @@
-<script> 
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Marcos — Aula 28/04</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#222}
+    pre{background:#f7f7f7;border:1px solid #e6e6e6;padding:12px;overflow:auto}
+  </style>
+</head>
+<body>
+  <h1>Vetor decrescente de 100 a 1</h1>
+  <p><strong>Enunciado:</strong> Gere um vetor contendo os números de 100 até 1 (decrescente). Exiba o vetor na página e no console do navegador.</p>
 
-let vet=[];
-let x;
-let y;
+  <h2>Resultado</h2>
+  <pre id="output">Carregando...</pre>
 
-for(y = 0; y < 100; y++){
-    
-    vet.push(100-y)
-    
-   
-}
-console.log(vet)
+  <script>
+    const vet = [];
+    for (let y = 0; y < 100; y++) {
+      vet.push(100 - y);
+    }
 
-
-
-
-
-
-
-</script>
+    document.getElementById('output').textContent = JSON.stringify(vet, null, 2);
+    console.log('marcos-aula_28-04 ->', vet);
+  </script>
+</body>
+</html>
