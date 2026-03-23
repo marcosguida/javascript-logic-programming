@@ -11,7 +11,7 @@ function fibMemo() {
 }
 
 const fib = fibMemo();
-console.log('fib(20) =', fib(20)); // 6765
+console.log('fib(20) =', fib(20)); 
 
 // Função genérica de memoização para funções puras
 function memoize(fn) {

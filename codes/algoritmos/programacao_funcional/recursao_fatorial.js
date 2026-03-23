@@ -1,5 +1,4 @@
 // Recursão: cálculo do fatorial (nível intermediário)
-// Explicação: mostra recursão direta com checagem de limites e memoização simples.
 
 function fatorial(n) {
   if (typeof n !== 'number' || n < 0) throw new Error('n deve ser um número inteiro não-negativo');
@@ -7,10 +6,9 @@ function fatorial(n) {
   return n * fatorial(n - 1);
 }
 
-// Pequeno teste
 console.log('fatorial(5) =', fatorial(5)); // 120
 
-// Versão recursiva com memoização (melhora para chamadas repetidas)
+// Recursividade
 const memoFact = (function () {
   const cache = {0: 1, 1: 1};
   return function fact(n) {

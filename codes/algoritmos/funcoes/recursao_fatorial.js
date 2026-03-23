@@ -7,10 +7,7 @@ function fatorial(n) {
   return n * fatorial(n - 1);
 }
 
-// Pequeno teste
-console.log('fatorial(5) =', fatorial(5)); // 120
-
-// Versão recursiva com memoização (melhora para chamadas repetidas)
+console.log('fatorial(5) =', fatorial(5));
 const memoFact = (function () {
   const cache = {0: 1, 1: 1};
   return function fact(n) {
@@ -20,4 +17,4 @@ const memoFact = (function () {
   };
 })();
 
-console.log('memoFact(10) =', memoFact(10)); // 3628800
+console.log('memoFact(10) =', memoFact(10)); 

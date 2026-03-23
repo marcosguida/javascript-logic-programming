@@ -33,12 +33,7 @@ class ShapeFactory {
   }
 }
 
-// Teste
 const c = ShapeFactory.create('circle', { radius: 3 });
 console.log('Circle area (r=3) =', c.area());
 const r = ShapeFactory.create('rectangle', { width: 4, height: 5 });
 console.log('Rectangle area (4x5) =', r.area());
-
-// Observações:
-// - Factory facilita a criação de objetos sem acoplar o código ao construtor exato.
-// - Use quando houver lógica de escolha/instância com base em parâmetros.

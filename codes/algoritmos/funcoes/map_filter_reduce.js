@@ -1,4 +1,4 @@
-// Uso intermediário de map, filter e reduce
+// Uso de map, filter e reduce
 // Exemplo: processar uma lista de objetos (vendas) para obter receita por vendedor
 
 const vendas = [

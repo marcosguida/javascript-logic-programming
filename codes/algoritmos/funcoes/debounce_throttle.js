@@ -21,7 +21,6 @@ function throttle(fn, limit = 200) {
   };
 }
 
-// Exemplo de uso (simulado via chamadas rápidas)
 const deb = debounce(() => console.log('debounced at', Date.now()), 100);
 const thr = throttle(() => console.log('throttled at', Date.now()), 100);
 
@@ -31,4 +30,3 @@ for (let i = 0; i < 5; i++) {
   thr();
 }
 
-// Aguarde alguns ms no console para ver diferenças

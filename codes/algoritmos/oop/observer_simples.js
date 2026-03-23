@@ -1,5 +1,4 @@
 // Observer simples — Subject / Observer tradicional
-// Nível: intermediário
 
 class Subject {
   constructor() {
@@ -38,7 +37,6 @@ class SumObserver {
   }
 }
 
-// Teste
 const subj = new Subject();
 const log1 = new LoggerObserver('log1');
 const log2 = new LoggerObserver('log2');
@@ -54,4 +52,3 @@ subj.notify(10);
 
 // Observações:
 // - Padrão Observer é útil para desacoplar produtores de eventos dos consumidores.
-// - Em aplicações reais considere gerenciamento de prioridade/assincronismo e weak refs.

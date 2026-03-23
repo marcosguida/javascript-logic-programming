@@ -20,7 +20,6 @@ class Aluno extends Pessoa {
   }
 }
 
-// Teste
 const a = new Aluno('Marcos', 28, 'JavaScript');
 console.log(a.falar());
 console.log(a.estudar());
