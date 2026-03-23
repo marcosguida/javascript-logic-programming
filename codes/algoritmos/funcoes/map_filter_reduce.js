@@ -9,7 +9,7 @@ const vendas = [
   {vendedor: 'Bruno', valor: 90}
 ];
 
-// 1) Map: transformar (aqui mantemos, mas poderia criar representação)
+// 1) Map: transformar 
 const valores = vendas.map(v => v.valor);
 console.log('valores =', valores);
 
