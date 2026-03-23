@@ -1,4 +1,4 @@
-// Exemplo OOP: Classe Pessoa com herança (nível intermediário)
+// Exemplo OOP: Classe Pessoa com herança 
 
 class Pessoa {
   constructor(nome, idade) {

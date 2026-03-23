@@ -1,4 +1,4 @@
-// Recursão: cálculo do fatorial (nível intermediário)
+// Recursão: cálculo do fatorial
 // Explicação: mostra recursão direta com checagem de limites e memoização simples.
 
 function fatorial(n) {

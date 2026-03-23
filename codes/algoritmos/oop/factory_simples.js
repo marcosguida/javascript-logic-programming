@@ -1,5 +1,4 @@
 // Factory simples — exemplo de fábrica que cria diferentes formas
-// Nível: intermediário
 
 class Circle {
   constructor(radius) {

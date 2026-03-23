@@ -1,4 +1,4 @@
-// Implementação de Pilha (Stack) em JS - nível intermediário
+// Implementação de Pilha (Stack) 
 // Métodos: push, pop, peek, isEmpty, size
 
 class Stack {
@@ -22,7 +22,7 @@ class Stack {
   }
 }
 
-// Teste
+
 const pilha = new Stack();
 pilha.push(1);
 pilha.push(2);

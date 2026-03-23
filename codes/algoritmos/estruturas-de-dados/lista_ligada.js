@@ -55,7 +55,7 @@ class LinkedList {
   }
 }
 
-// Teste
+
 const ll = new LinkedList();
 ll.append(1);
 ll.append(2);

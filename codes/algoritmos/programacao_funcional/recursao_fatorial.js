@@ -1,4 +1,4 @@
-// Recursão: cálculo do fatorial (nível intermediário)
+// Recursão: cálculo do fatorial 
 
 function fatorial(n) {
   if (typeof n !== 'number' || n < 0) throw new Error('n deve ser um número inteiro não-negativo');

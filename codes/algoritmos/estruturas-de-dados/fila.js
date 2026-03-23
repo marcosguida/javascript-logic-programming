@@ -1,4 +1,4 @@
-// Implementação de Fila (Queue) — nível intermediário
+// Implementação de Fila (Queue) 
 // Métodos: enqueue, dequeue, front, isEmpty, size
 
 class Queue {
@@ -22,7 +22,7 @@ class Queue {
   }
 }
 
-// Teste
+
 const fila = new Queue();
 fila.enqueue('a');
 fila.enqueue('b');

@@ -57,7 +57,7 @@ class BinaryTree {
   }
 }
 
-// Teste
+
 const bt = new BinaryTree();
 [8, 3, 10, 1, 6, 14, 4].forEach(n => bt.insert(n));
 console.log('preorder =', bt.preorder());
